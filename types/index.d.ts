@@ -13,9 +13,11 @@ export interface FloatingLabelInputProps extends TextInputProps {
     label: string;
 }
 
+
 export interface SearchInputProps extends TextInputProps {
     onQuery: (value:string) => void
 }
+
 
 export interface shipment {
     name: string;
